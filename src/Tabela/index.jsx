@@ -1,6 +1,8 @@
 import styles from './main.module.css'
+import Calculadora from '../Calculadora'
 
-function Tabela(){
+const Tabela = ()=> {
+
     const tabela = [
         ['IMC','Classificação','Obesidade','Calculo'],
         ['MENOR QUE 18,5','MAGREZA',0,18.5],
