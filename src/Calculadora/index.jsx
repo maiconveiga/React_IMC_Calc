@@ -9,8 +9,8 @@ const Calculadora = () => {
     return (
         <>
             <div className={styles.calculadora}>
-                    <input type="text" name="" id="altura" placeholder='Altura 2.00' onChange={evento => setA(evento.target.value)} />
-                    <input type="text" name="" id="peso" placeholder='Peso 80.0' onChange={evento => setP(evento.target.value)}/>
+                    <input type="number"  name="" id="altura" placeholder='Altura' onChange={evento => setA(evento.target.value)} />
+                    <input type="number"  name="" id="peso" placeholder='Peso' onChange={evento => setP(evento.target.value)}/>
                     <span>IMC {imc}</span>
             </div>
             
