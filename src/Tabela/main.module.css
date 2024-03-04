@@ -1,0 +1,33 @@
+.tabela {
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+.tabela thead{
+    background-color: #075252;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.tabela tbody{
+    text-align: center;
+    
+}
+.tabela tbody tr{
+    border-bottom: 0.2px solid black;
+}
+
+@media (max-width:375px) {
+    .tabela thead{
+        font-size: 15px;
+    }
+
+    .tabela tbody{
+        font-size: 15px;
+    }
+    
+}

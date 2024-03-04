@@ -1,0 +1,19 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    max-width: 960px;
+    width: 100%;
+
+    
+}
+body{
+    border: 1px solid black;
+    padding: 50px;
+    margin-top: 0;
+    max-width: 960px;
+    width: 100%;
+
+
+}
