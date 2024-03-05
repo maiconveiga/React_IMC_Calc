@@ -1,6 +1,8 @@
 import styles from './main.module.css'
 
+
 const Cabecalho = () => {
+
     return (
         <>
         <h1 className={styles.titulo}>Cálculo de IMC</h1>

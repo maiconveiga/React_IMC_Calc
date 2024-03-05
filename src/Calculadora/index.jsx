@@ -1,11 +1,24 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import styles from './main.module.css'
 
 const Calculadora = () => {
+
     let [a,setA] = useState(1);
     let [p,setP] = useState(0);
     let imc = (parseFloat(p)/(parseFloat(a)*parseFloat(a))).toFixed(2);
     let classificacao = '';
+
+    useEffect(() =>{
+        console.log("Altura alterada " + a)
+    }),[a];
+    useEffect(() =>{
+        console.log("Peso alterado " + p)
+    }),[p];
+    useEffect(() =>{
+        console.log("Calculadora montada")
+
+        return () => console.log("Calculadora desmontada")
+    }),[];
 
     if( imc == 0){
         classificacao = "Classificação";
