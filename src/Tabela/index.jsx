@@ -43,6 +43,11 @@ const Tabela = ()=> {
                     <td>{tabela[4][1]}</td>
                     <td>{tabela[4][2]}</td>
                 </tr>
+                <tr>
+                    <td>{tabela[5][0]}</td>
+                    <td>{tabela[5][1]}</td>
+                    <td>{tabela[5][2]}</td>
+                </tr>
             </tbody>
 
         </table>
